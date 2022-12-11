@@ -2,8 +2,9 @@
 
 //Measures of Central Tendency (Mean, Median and Mode)
 
-//input value by user
 
+
+//input value by user
 
 let a= prompt("Please enter your first number");
 let b= prompt("Please enter another number");
@@ -17,7 +18,7 @@ console.log("Here is your Data [" + (myArray)+ ']');
 
 
 
-//Calculating for Mean
+//-----------Calculating for Mean---------------------
 
 function mean(myArray) {
     let sum=0;
@@ -32,7 +33,7 @@ console.log("Mean = " + mean(myArray));
 
 
 
-//Calculating for median
+//----------Calculating for median-------------
 
 function median(myArray) {
     myArray = myArray.sort((a,b) => a -b);
@@ -51,7 +52,7 @@ console.log("Median = " + median(myArray));
 
 
 
-//Calculating for mode
+//----------------Calculating for mode--------------
 
 function mode(myArray) {
     const myArrayObj = {}
